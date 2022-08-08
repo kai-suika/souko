@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+html {
+ 	overflow-y	: scroll;
+}
+
+body {
+	font-family	: "Arial", sans-Serif;
+	margin		: 0;
+	padding		: 0;
+	font-size	: 13px;
+	background	: #e2e6f5;
+	color		: #000000;
+ 	text-align	: center;
+}
+
+a {
+	text-decoration	: none;
+}
+
+a:link {
+	color			: #2048e5;
+	font-size		: 13px;
+}
+
+.header_link:hover{
+	text-decoration		: underline;
+}
+
+a:hover {
+	color				: #2048e5;
+	font-size			: 13px;
+	text-decoration		: underline;
+}
+
+a:visited {
+	color				: #2048e5;
+	font-size			: 13px;
+}
+
+#main {
+	margin		: 0 auto 0 auto;
+	padding		: 0;
+	width		: 1024px;
+	text-align	: left;
+}
+
+/*--?R?~??----------------------------------------------------------------*/
+
+
+#link {
+	clear		:both;
+	padding		: 5px 0px 5px 5px;
+	border		: none;
+}
+
+.event {
+	clear		:both;
+	width		: 1024px;
+	height		: 650px;
+	padding		: 0px 0px 10px 0px;
+	/*
+	border		: solid 1px #070;
+	*/
+	border		: none;
+	background-color:#e2e6f5;
+}
+
+.flash {
+	float		: left;
+	width		: 480px;
+	height		: 640px;
+	padding		: 0px 0px 0px 0px;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.comm {
+	float		: left;
+	width		: 544px;
+	height		: 640px;
+	padding		: 0px 0px 0px 0px;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.type {
+	float		: left;
+	width		: 542px;
+	height		: 17px;
+	padding		: 2px 0px 0px 2px;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.type_n {
+	float		: left;
+	width		: 542px;
+	height		: 17px;
+	padding		: 2px 0px 0px 2px;
+	color		: #3c0;
+	font-weight	: bold;
+	vertical-align:middle;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.type_g {
+	float		: left;
+	width		: 542px;
+	height		: 17px;
+	padding		: 2px 0px 0px 2px;
+	color		: #fc0;
+	font-weight	: bold;
+	vertical-align:middle;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.type_p {
+	float		: left;
+	width		: 542px;
+	height		: 17px;
+	padding		: 2px 0px 0px 2px;
+	color		: #f30;
+	font-weight	: bold;
+	vertical-align:middle;
+	border		: none;
+	background-color:#d5daed;
+}
+
+.text {
+	clear		:both;
+	width		: 544px;
+	height		: 65px;
+	padding		: 0px 0px 0px 0px;
+	border		: none;
+	background-color:#fff;
+}
